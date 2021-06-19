@@ -1,4 +1,0 @@
-import bpy
-
-#move vertex with the index 0 by 1 unit in positive x direction
-bpy.data.objects["Cube"].data.vertices[0].co.x += 1.0
